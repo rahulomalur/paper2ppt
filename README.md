@@ -1,4 +1,4 @@
-# 🎯 Paper2PPT — AI-Powered Research Paper to Presentation Agent
+#  Paper2PPT — AI-Powered Research Paper to Presentation Agent
 
 <p align="center">
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
@@ -11,7 +11,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Multi-agent pipeline**: Three specialized agents (Summarizer → Creator → Designer) work in sequence
 - **Two modes**: Single `.tex` file or full LaTeX project archive (`.zip` / `.tar.gz`) with embedded figures
@@ -21,7 +21,7 @@
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -30,7 +30,7 @@
                          │
           ┌──────────────┴──────────────┐
           │                             │
-   📄 PPT Agent                🖼️ PPT Agent with Images
+    PPT Agent                 PPT Agent with Images
   (single .tex file)          (full LaTeX project archive)
           │                             │
           └──────────────┬──────────────┘
@@ -53,7 +53,7 @@
 
 ---
 
-## 🚀 Demo
+##  Demo
 
 | Home | PPT Agent | PPT Agent with Images |
 |---|---|---|
@@ -61,7 +61,7 @@
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 ```
 paper2ppt/
@@ -77,7 +77,7 @@ paper2ppt/
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -110,7 +110,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 🌐 Deployment (Streamlit Community Cloud)
+##  Deployment (Streamlit Community Cloud)
 
 1. Fork or push this repo to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**
@@ -124,7 +124,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### PPT Agent (single `.tex`)
 1. You upload a `.tex` file
@@ -139,7 +139,7 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -151,6 +151,6 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
-## 📄 License
+##  License
 
 MIT License — see [LICENSE](LICENSE) for details.
