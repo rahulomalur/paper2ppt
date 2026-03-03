@@ -1,0 +1,9 @@
+*.env
+.env
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+*.pyo
+*.pptx
+temp.tex
+extracted_project/
