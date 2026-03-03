@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field, validator
 from typing import List, Optional
 from pptx.dml.color import RGBColor
-
+#Made changes
 load_dotenv()
 
 # Support both local .env and Streamlit Cloud secrets
